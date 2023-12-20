@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 15px 0;
+    margin-left: 30px;
+}
+
+.navbar ul
+{
+    list-style: none;
+}
+.abc{
+    margin-left: 730px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header
+{   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header .sec1-left input
+{
+    width: 250px;
+    height:40px;
+    border-radius: 3px;
+    border: 1px solid black;
+
+    margin-top: 15px;
+}
+
+.header .sec1-left button
+{
+  background-color:  blue;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 5px;
+
+  margin-top: 15px;
+}
+
+.sec1-left
+{
+    flex: 0.5;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+
+.sec1-right 
+{
+ flex: 0.5;
+
+}
+.sec1-img
+{
+    margin-top: 50px;
+    inline-size: 500px;
+
+}
+
+.middle
+{
+    background-image: url('/Comp2/landingpage1/images/bg-curve-desktop.svg');
+    
+}
+.middle-content
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.middle-left
+{
+    flex: 0.5;
+    margin-left: 50px;
+  
+}
+.middle-right
+{
+    flex: 0.5;
+    
+    margin-top: 150px;
+}
+.middle-right img
+{
+    margin-top: none;
+    inline-size: 500px;
+}
+
+
+.sec3
+{
+    background-color: hsl(238, 22%, 44%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    box-sizing: border-box;
+}
+.sect3-left
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 100px;
+}
+.sec3-right 
+{
+    
+    display: flex;
+    flex-direction: column;
+   padding: 100px;
+
+}
+.sec3-right input
+{  
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.sec3-right button
+{
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer
+{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    height: 300px;
+}
+.foot1
+{
+   
+    margin-left: 40px;
+    padding: 100px;
+}
+span
+{
+    margin-right: 5px;
+}
+.foot1 .phone
+{
+    display: flex;
+   
+}
+.foot1 .mail
+{
+    display: flex;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}
